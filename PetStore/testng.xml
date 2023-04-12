@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+	<test thread-count="5" parallel="tests" name="Test">
+		<classes>
+			<class name="com.petstore.testcase.TS003_POST_AddNewPet" />
+			<class name="com.petstore.testcase.TS005_PUT_UpdatePetInfo" />
+			<class name="com.petstore.testcase.TS002_PostRequestWithoutPayload" />
+			<class name="com.petstore.testcase.TS001_POST_UploadImage" />
+			<class name="com.petstore.testcase.TS004_GET_PETinfo" />
+			<class name="com.petstore.testcase.TS006_DELETE_PET_API" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

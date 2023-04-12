@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="29" passed="19" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-13T00:24:39 IST" name="Suite" finished-at="2023-04-13T00:24:58 IST" duration-ms="19442">
+    <groups>
+    </groups>
+    <test started-at="2023-04-13T00:24:39 IST" name="Test" finished-at="2023-04-13T00:24:58 IST" duration-ms="19442">
+      <class name="com.petstore.testcase.TS005_PUT_UpdatePetInfo">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.petstore.testcase.TS005_PUT_UpdatePetInfo@7bd4937b]" started-at="2023-04-13T00:24:39 IST" name="beforeTest" finished-at="2023-04-13T00:24:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:com.petstore.testcase.TS005_PUT_UpdatePetInfo@7bd4937b]" started-at="2023-04-13T00:24:43 IST" name="testDetails" finished-at="2023-04-13T00:24:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method signature="updatePet()[pri:0, instance:com.petstore.testcase.TS005_PUT_UpdatePetInfo@7bd4937b]" started-at="2023-04-13T00:24:43 IST" name="updatePet" finished-at="2023-04-13T00:24:45 IST" duration-ms="1346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePet -->
+      </class> <!-- com.petstore.testcase.TS005_PUT_UpdatePetInfo -->
+      <class name="com.petstore.testcase.TS003_POST_AddNewPet">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:com.petstore.testcase.TS003_POST_AddNewPet@618425b5]" started-at="2023-04-13T00:24:38 IST" name="startReport" finished-at="2023-04-13T00:24:39 IST" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.petstore.testcase.TS003_POST_AddNewPet@618425b5]" started-at="2023-04-13T00:24:39 IST" name="beforeTest" finished-at="2023-04-13T00:24:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:com.petstore.testcase.TS003_POST_AddNewPet@618425b5]" started-at="2023-04-13T00:24:39 IST" name="testDetails" finished-at="2023-04-13T00:24:39 IST" duration-ms="610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method signature="addNewPet()[pri:0, instance:com.petstore.testcase.TS003_POST_AddNewPet@618425b5]" started-at="2023-04-13T00:24:39 IST" name="addNewPet" finished-at="2023-04-13T00:24:42 IST" duration-ms="2777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewPet -->
+        <test-method signature="verifyResponseBodyCategoryId()[pri:0, instance:com.petstore.testcase.TS003_POST_AddNewPet@618425b5]" started-at="2023-04-13T00:24:42 IST" name="verifyResponseBodyCategoryId" finished-at="2023-04-13T00:24:43 IST" duration-ms="910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseBodyCategoryId -->
+        <test-method signature="verifyResponseBodyCategoryName()[pri:0, instance:com.petstore.testcase.TS003_POST_AddNewPet@618425b5]" started-at="2023-04-13T00:24:43 IST" name="verifyResponseBodyCategoryName" finished-at="2023-04-13T00:24:43 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseBodyCategoryName -->
+        <test-method signature="verifyResponseBodyID()[pri:0, instance:com.petstore.testcase.TS003_POST_AddNewPet@618425b5]" started-at="2023-04-13T00:24:43 IST" name="verifyResponseBodyID" finished-at="2023-04-13T00:24:43 IST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseBodyID -->
+        <test-method signature="verifyResponseBodyPatName()[pri:0, instance:com.petstore.testcase.TS003_POST_AddNewPet@618425b5]" started-at="2023-04-13T00:24:43 IST" name="verifyResponseBodyPatName" finished-at="2023-04-13T00:24:43 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseBodyPatName -->
+        <test-method signature="verifyResponseBodyStatus()[pri:0, instance:com.petstore.testcase.TS003_POST_AddNewPet@618425b5]" started-at="2023-04-13T00:24:43 IST" name="verifyResponseBodyStatus" finished-at="2023-04-13T00:24:43 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseBodyStatus -->
+        <test-method signature="verifyResponseBodyTagId()[pri:0, instance:com.petstore.testcase.TS003_POST_AddNewPet@618425b5]" started-at="2023-04-13T00:24:43 IST" name="verifyResponseBodyTagId" finished-at="2023-04-13T00:24:43 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseBodyTagId -->
+        <test-method signature="verifyResponseBodyTagName()[pri:0, instance:com.petstore.testcase.TS003_POST_AddNewPet@618425b5]" started-at="2023-04-13T00:24:43 IST" name="verifyResponseBodyTagName" finished-at="2023-04-13T00:24:43 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseBodyTagName -->
+        <test-method signature="verifyResponseBodyphotoUrls()[pri:0, instance:com.petstore.testcase.TS003_POST_AddNewPet@618425b5]" started-at="2023-04-13T00:24:43 IST" name="verifyResponseBodyphotoUrls" finished-at="2023-04-13T00:24:43 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseBodyphotoUrls -->
+        <test-method is-config="true" signature="stopReport()[pri:0, instance:com.petstore.testcase.TS003_POST_AddNewPet@618425b5]" started-at="2023-04-13T00:24:58 IST" name="stopReport" finished-at="2023-04-13T00:24:59 IST" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- com.petstore.testcase.TS003_POST_AddNewPet -->
+      <class name="com.petstore.testcase.TS004_GET_PETinfo">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.petstore.testcase.TS004_GET_PETinfo@74751b3]" started-at="2023-04-13T00:24:39 IST" name="beforeTest" finished-at="2023-04-13T00:24:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:com.petstore.testcase.TS004_GET_PETinfo@74751b3]" started-at="2023-04-13T00:24:55 IST" name="testDetails" finished-at="2023-04-13T00:24:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method signature="getPet()[pri:0, instance:com.petstore.testcase.TS004_GET_PETinfo@74751b3]" started-at="2023-04-13T00:24:55 IST" name="getPet" finished-at="2023-04-13T00:24:57 IST" duration-ms="1461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPet -->
+      </class> <!-- com.petstore.testcase.TS004_GET_PETinfo -->
+      <class name="com.petstore.testcase.TS006_DELETE_PET_API">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.petstore.testcase.TS006_DELETE_PET_API@741a8937]" started-at="2023-04-13T00:24:39 IST" name="beforeTest" finished-at="2023-04-13T00:24:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:com.petstore.testcase.TS006_DELETE_PET_API@741a8937]" started-at="2023-04-13T00:24:57 IST" name="testDetails" finished-at="2023-04-13T00:24:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method signature="deletePet()[pri:0, instance:com.petstore.testcase.TS006_DELETE_PET_API@741a8937]" started-at="2023-04-13T00:24:57 IST" name="deletePet" finished-at="2023-04-13T00:24:58 IST" duration-ms="1431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePet -->
+      </class> <!-- com.petstore.testcase.TS006_DELETE_PET_API -->
+      <class name="com.petstore.testcase.TS002_PostRequestWithoutPayload">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.petstore.testcase.TS002_PostRequestWithoutPayload@5ba3f27a]" started-at="2023-04-13T00:24:39 IST" name="beforeTest" finished-at="2023-04-13T00:24:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:com.petstore.testcase.TS002_PostRequestWithoutPayload@5ba3f27a]" started-at="2023-04-13T00:24:45 IST" name="testDetails" finished-at="2023-04-13T00:24:45 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method signature="WithoutFormData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.petstore.testcase.TS002_PostRequestWithoutPayload@5ba3f27a]" started-at="2023-04-13T00:24:45 IST" name="WithoutFormData" data-provider="exceldata" finished-at="2023-04-13T00:24:47 IST" duration-ms="1552" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1223]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[file]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C:\Users\LP\Desktop\Image\000107506.jpg]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[additionalMetadata]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sample Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WithoutFormData -->
+      </class> <!-- com.petstore.testcase.TS002_PostRequestWithoutPayload -->
+      <class name="com.petstore.testcase.TS001_POST_UploadImage">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.petstore.testcase.TS001_POST_UploadImage@58d75e99]" started-at="2023-04-13T00:24:39 IST" name="beforeTest" finished-at="2023-04-13T00:24:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:com.petstore.testcase.TS001_POST_UploadImage@58d75e99]" started-at="2023-04-13T00:24:47 IST" name="testDetails" finished-at="2023-04-13T00:24:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method signature="ValidateResponseMessage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.petstore.testcase.TS001_POST_UploadImage@58d75e99]" started-at="2023-04-13T00:24:47 IST" name="ValidateResponseMessage" data-provider="exceldata" finished-at="2023-04-13T00:24:55 IST" duration-ms="8065" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1223]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[file]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C:\Users\LP\Desktop\Image\000107506.jpg]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[additionalMetadata]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sample Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateResponseMessage -->
+        <test-method signature="vaidateStatuscode()[pri:0, instance:com.petstore.testcase.TS001_POST_UploadImage@58d75e99]" started-at="2023-04-13T00:24:55 IST" name="vaidateStatuscode" finished-at="2023-04-13T00:24:55 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vaidateStatuscode -->
+        <test-method signature="validateResponseBodyCode()[pri:0, instance:com.petstore.testcase.TS001_POST_UploadImage@58d75e99]" started-at="2023-04-13T00:24:55 IST" name="validateResponseBodyCode" finished-at="2023-04-13T00:24:55 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResponseBodyCode -->
+        <test-method signature="validateResponseBodyType()[pri:0, instance:com.petstore.testcase.TS001_POST_UploadImage@58d75e99]" started-at="2023-04-13T00:24:55 IST" name="validateResponseBodyType" finished-at="2023-04-13T00:24:55 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResponseBodyType -->
+        <test-method signature="validateResponseTime()[pri:0, instance:com.petstore.testcase.TS001_POST_UploadImage@58d75e99]" started-at="2023-04-13T00:24:55 IST" name="validateResponseTime" finished-at="2023-04-13T00:24:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResponseTime -->
+        <test-method signature="validateStatusLine()[pri:0, instance:com.petstore.testcase.TS001_POST_UploadImage@58d75e99]" started-at="2023-04-13T00:24:55 IST" name="validateStatusLine" finished-at="2023-04-13T00:24:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStatusLine -->
+      </class> <!-- com.petstore.testcase.TS001_POST_UploadImage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

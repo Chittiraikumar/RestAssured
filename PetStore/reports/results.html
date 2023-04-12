@@ -1,0 +1,2089 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Apr 13, 2023 12:24:38 am</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('author-view')">
+<a id="nav-author" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-user"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i></a>
+<ul id="author-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">LP</a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">GET_PET</a><a class="dropdown-item" href="#">Functional</a><a class="dropdown-item" href="#">UPDATE_PET</a><a class="dropdown-item" href="#">Add_New_Pet</a><a class="dropdown-item" href="#">DELETE_PET</a><a class="dropdown-item" href="#">UploadImage</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author="LP"
+          tag="Add_New_Pet Functional"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC008 Verify the Add New Pet</p>
+            <p class="text-sm">
+              <span>12:24:39 am</span> / <span>00:00:02:767</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC008 Verify the Add New Pet</h5>
+<span class='badge badge-success'>04.13.2023 12:24:39 am</span>
+<span class='badge badge-danger'>04.13.2023 12:24:42 am</span>
+<span class='badge badge-default'>00:00:02:767</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LP</span>
+<span class="badge badge-pill badge-default">Add_New_Pet</span>
+<span class="badge badge-pill badge-default">Functional</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:39 am</td>
+        <td>
+          TC008 Verify the Add New Pet
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:39 am</td>
+        <td>
+          POST_Header Request sent successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:39 am</td>
+        <td>
+          Payload Request created successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:39 am</td>
+        <td>
+          Payload Request added successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:42 am</td>
+        <td>
+          POST Request Initiated successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:42 am</td>
+        <td>
+          Status Code Matched Testcase Passed !ResponseCode is :: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:42 am</td>
+        <td>
+          StatusLine matched as per expectedStatusLine is :: HTTP/1.1 200 OK
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:42 am</td>
+        <td>
+          ResponseTime matched as per expectedResponseTime is :: 2s
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author="LP"
+          tag="Add_New_Pet Functional"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC010 Verify the ResponseBody Category id </p>
+            <p class="text-sm">
+              <span>12:24:42 am</span> / <span>00:00:00:904</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC010 Verify the ResponseBody Category id </h5>
+<span class='badge badge-success'>04.13.2023 12:24:42 am</span>
+<span class='badge badge-danger'>04.13.2023 12:24:43 am</span>
+<span class='badge badge-default'>00:00:00:904</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LP</span>
+<span class="badge badge-pill badge-default">Add_New_Pet</span>
+<span class="badge badge-pill badge-default">Functional</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:42 am</td>
+        <td>
+          TC010 Verify the ResponseBody Category id 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:42 am</td>
+        <td>
+          Category ID created successfully (JSON Input) 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:43 am</td>
+        <td>
+          ResponseBody id is matched as per expectedResponseBody actual id is :: 100112
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author="LP"
+          tag="Add_New_Pet Functional"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC011 Verify the ResponseBody Category Name</p>
+            <p class="text-sm">
+              <span>12:24:43 am</span> / <span>00:00:00:068</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC011 Verify the ResponseBody Category Name</h5>
+<span class='badge badge-success'>04.13.2023 12:24:43 am</span>
+<span class='badge badge-danger'>04.13.2023 12:24:43 am</span>
+<span class='badge badge-default'>00:00:00:068</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LP</span>
+<span class="badge badge-pill badge-default">Add_New_Pet</span>
+<span class="badge badge-pill badge-default">Functional</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:43 am</td>
+        <td>
+          TC011 Verify the ResponseBody Category Name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:43 am</td>
+        <td>
+          Category Name created successfully (JSON Input) 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:43 am</td>
+        <td>
+          ResponseBody Category Name is matched as per expectedResponseBody actual id is :: CountryDog
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author="LP"
+          tag="Add_New_Pet Functional"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC009 Verify the ResponseBody id </p>
+            <p class="text-sm">
+              <span>12:24:43 am</span> / <span>00:00:00:073</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC009 Verify the ResponseBody id </h5>
+<span class='badge badge-success'>04.13.2023 12:24:43 am</span>
+<span class='badge badge-danger'>04.13.2023 12:24:43 am</span>
+<span class='badge badge-default'>00:00:00:073</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LP</span>
+<span class="badge badge-pill badge-default">Add_New_Pet</span>
+<span class="badge badge-pill badge-default">Functional</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:43 am</td>
+        <td>
+          TC009 Verify the ResponseBody id 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:43 am</td>
+        <td>
+          ID created successfully (JSON Input) 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:43 am</td>
+        <td>
+          ResponseBody id is matched as per expectedResponseBody actual id is :: 100112
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author="LP"
+          tag="Add_New_Pet Functional"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC012 Verify the ResponseBody Pet Name</p>
+            <p class="text-sm">
+              <span>12:24:43 am</span> / <span>00:00:00:025</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC012 Verify the ResponseBody Pet Name</h5>
+<span class='badge badge-success'>04.13.2023 12:24:43 am</span>
+<span class='badge badge-danger'>04.13.2023 12:24:43 am</span>
+<span class='badge badge-default'>00:00:00:025</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LP</span>
+<span class="badge badge-pill badge-default">Add_New_Pet</span>
+<span class="badge badge-pill badge-default">Functional</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:43 am</td>
+        <td>
+          TC012 Verify the ResponseBody Pet Name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:43 am</td>
+        <td>
+          Pet Name created successfully (JSON Input) 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:43 am</td>
+        <td>
+          ResponseBody Pet Name is matched as per expectedResponseBody actual id is :: doggie
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author="LP"
+          tag="Add_New_Pet Functional"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC016 Verify the ResponseBody Status</p>
+            <p class="text-sm">
+              <span>12:24:43 am</span> / <span>00:00:00:024</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC016 Verify the ResponseBody Status</h5>
+<span class='badge badge-success'>04.13.2023 12:24:43 am</span>
+<span class='badge badge-danger'>04.13.2023 12:24:43 am</span>
+<span class='badge badge-default'>00:00:00:024</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LP</span>
+<span class="badge badge-pill badge-default">Add_New_Pet</span>
+<span class="badge badge-pill badge-default">Functional</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:43 am</td>
+        <td>
+          TC016 Verify the ResponseBody Status
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:43 am</td>
+        <td>
+          status created successfully (JSON Input) 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:43 am</td>
+        <td>
+          ResponseBody status is/are matched as per expectedResponseBody actual id is :: available
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author="LP"
+          tag="Add_New_Pet Functional"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC015 Verify the ResponseBody tagId</p>
+            <p class="text-sm">
+              <span>12:24:43 am</span> / <span>00:00:00:031</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC015 Verify the ResponseBody tagId</h5>
+<span class='badge badge-success'>04.13.2023 12:24:43 am</span>
+<span class='badge badge-danger'>04.13.2023 12:24:43 am</span>
+<span class='badge badge-default'>00:00:00:031</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LP</span>
+<span class="badge badge-pill badge-default">Add_New_Pet</span>
+<span class="badge badge-pill badge-default">Functional</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:43 am</td>
+        <td>
+          TC015 Verify the ResponseBody tagId
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:43 am</td>
+        <td>
+          tagId created successfully (JSON Input) 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:43 am</td>
+        <td>
+          ResponseBody tagId is/are matched as per expectedResponseBody actual id is :: [100112]
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author="LP"
+          tag="Add_New_Pet Functional"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC014 Verify the ResponseBody tagname</p>
+            <p class="text-sm">
+              <span>12:24:43 am</span> / <span>00:00:00:027</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC014 Verify the ResponseBody tagname</h5>
+<span class='badge badge-success'>04.13.2023 12:24:43 am</span>
+<span class='badge badge-danger'>04.13.2023 12:24:43 am</span>
+<span class='badge badge-default'>00:00:00:027</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LP</span>
+<span class="badge badge-pill badge-default">Add_New_Pet</span>
+<span class="badge badge-pill badge-default">Functional</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:43 am</td>
+        <td>
+          TC014 Verify the ResponseBody tagname
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:43 am</td>
+        <td>
+          tagname created successfully (JSON Input) 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:43 am</td>
+        <td>
+          ResponseBody tagname is/are matched as per expectedResponseBody actual id is :: [Test]
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author="LP"
+          tag="Add_New_Pet Functional"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC013 Verify the ResponseBody photoUrls</p>
+            <p class="text-sm">
+              <span>12:24:43 am</span> / <span>00:00:00:039</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC013 Verify the ResponseBody photoUrls</h5>
+<span class='badge badge-success'>04.13.2023 12:24:43 am</span>
+<span class='badge badge-danger'>04.13.2023 12:24:43 am</span>
+<span class='badge badge-default'>00:00:00:039</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LP</span>
+<span class="badge badge-pill badge-default">Add_New_Pet</span>
+<span class="badge badge-pill badge-default">Functional</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:43 am</td>
+        <td>
+          TC013 Verify the ResponseBody photoUrls
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:43 am</td>
+        <td>
+          photoUrls created successfully (JSON Input) 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:43 am</td>
+        <td>
+          ResponseBody photoUrls is/are matched as per expectedResponseBody actual id is :: [https://unsplash.com/s/photos/baby-dog]
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author="LP"
+          tag="Functional UPDATE_PET"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC018 Verify the UPDATE New Pet API </p>
+            <p class="text-sm">
+              <span>12:24:43 am</span> / <span>00:00:01:343</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC018 Verify the UPDATE New Pet API </h5>
+<span class='badge badge-success'>04.13.2023 12:24:43 am</span>
+<span class='badge badge-danger'>04.13.2023 12:24:45 am</span>
+<span class='badge badge-default'>00:00:01:343</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LP</span>
+<span class="badge badge-pill badge-default">Functional</span>
+<span class="badge badge-pill badge-default">UPDATE_PET</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:43 am</td>
+        <td>
+          TC018 Verify the UPDATE New Pet API 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:43 am</td>
+        <td>
+          Header Request sent successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:43 am</td>
+        <td>
+          Header Request sent successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:43 am</td>
+        <td>
+          Payload Request created successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:43 am</td>
+        <td>
+          Payload Request added successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:45 am</td>
+        <td>
+          PUT Request Initiated successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:45 am</td>
+        <td>
+          Status Code Matched Testcase Passed !ResponseCode is :: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:45 am</td>
+        <td>
+          StatusLine matched as per expectedStatusLine is :: HTTP/1.1 200 OK
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:45 am</td>
+        <td>
+          ResponseTime matched as per expectedResponseTime is :: 1s
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author="LP"
+          tag="Functional UploadImage"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC007 Verify the ResponseBody sending Request WithoutFormData</p>
+            <p class="text-sm">
+              <span>12:24:45 am</span> / <span>00:00:01:551</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC007 Verify the ResponseBody sending Request WithoutFormData</h5>
+<span class='badge badge-success'>04.13.2023 12:24:45 am</span>
+<span class='badge badge-danger'>04.13.2023 12:24:47 am</span>
+<span class='badge badge-default'>00:00:01:551</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LP</span>
+<span class="badge badge-pill badge-default">Functional</span>
+<span class="badge badge-pill badge-default">UploadImage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:45 am</td>
+        <td>
+          TC007 Verify the ResponseBody sending Request WithoutFormData
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:47 am</td>
+        <td>
+          Request sent successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:47 am</td>
+        <td>
+          Status Code Matched Testcase Passed !ResponseCode is :: 415
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="12"
+          author="LP"
+          tag="Functional UploadImage"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC001 Verify the Response Message</p>
+            <p class="text-sm">
+              <span>12:24:47 am</span> / <span>00:00:08:044</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC001 Verify the Response Message</h5>
+<span class='badge badge-success'>04.13.2023 12:24:47 am</span>
+<span class='badge badge-danger'>04.13.2023 12:24:55 am</span>
+<span class='badge badge-default'>00:00:08:044</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LP</span>
+<span class="badge badge-pill badge-default">Functional</span>
+<span class="badge badge-pill badge-default">UploadImage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:47 am</td>
+        <td>
+          TC001 Verify the Response Message
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:47 am</td>
+        <td>
+          Header Request sent successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:55 am</td>
+        <td>
+          Image File Uploaded successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="13"
+          author="LP"
+          tag="Functional UploadImage"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC002 Verify the Status Code</p>
+            <p class="text-sm">
+              <span>12:24:55 am</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC002 Verify the Status Code</h5>
+<span class='badge badge-success'>04.13.2023 12:24:55 am</span>
+<span class='badge badge-danger'>04.13.2023 12:24:55 am</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LP</span>
+<span class="badge badge-pill badge-default">Functional</span>
+<span class="badge badge-pill badge-default">UploadImage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:55 am</td>
+        <td>
+          TC002 Verify the Status Code
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:55 am</td>
+        <td>
+          Status Code Matched Testcase Passed !ResponseCode is :: 200
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="14"
+          author="LP"
+          tag="Functional UploadImage"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC004 Verify the ResponseBody code</p>
+            <p class="text-sm">
+              <span>12:24:55 am</span> / <span>00:00:00:019</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC004 Verify the ResponseBody code</h5>
+<span class='badge badge-success'>04.13.2023 12:24:55 am</span>
+<span class='badge badge-danger'>04.13.2023 12:24:55 am</span>
+<span class='badge badge-default'>00:00:00:019</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LP</span>
+<span class="badge badge-pill badge-default">Functional</span>
+<span class="badge badge-pill badge-default">UploadImage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:55 am</td>
+        <td>
+          TC004 Verify the ResponseBody code
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:55 am</td>
+        <td>
+          ResponseBody code matched as per expected
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="15"
+          author="LP"
+          tag="Functional UploadImage"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC006 Verify the ResponseBody Type</p>
+            <p class="text-sm">
+              <span>12:24:55 am</span> / <span>00:00:00:012</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC006 Verify the ResponseBody Type</h5>
+<span class='badge badge-success'>04.13.2023 12:24:55 am</span>
+<span class='badge badge-danger'>04.13.2023 12:24:55 am</span>
+<span class='badge badge-default'>00:00:00:012</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LP</span>
+<span class="badge badge-pill badge-default">Functional</span>
+<span class="badge badge-pill badge-default">UploadImage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:55 am</td>
+        <td>
+          TC006 Verify the ResponseBody Type
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:55 am</td>
+        <td>
+          ResponseBody Type matched as per expectedResponseBody Type is :: unknown
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="16"
+          author="LP"
+          tag="Functional UploadImage"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC005 Verify the ResponseTime</p>
+            <p class="text-sm">
+              <span>12:24:55 am</span> / <span>00:00:00:001</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC005 Verify the ResponseTime</h5>
+<span class='badge badge-success'>04.13.2023 12:24:55 am</span>
+<span class='badge badge-danger'>04.13.2023 12:24:55 am</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LP</span>
+<span class="badge badge-pill badge-default">Functional</span>
+<span class="badge badge-pill badge-default">UploadImage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:55 am</td>
+        <td>
+          TC005 Verify the ResponseTime
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:55 am</td>
+        <td>
+          ResponseTime matched as per expectedResponseTime is :: 8s
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="17"
+          author="LP"
+          tag="Functional UploadImage"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC003 Verify the statusLine</p>
+            <p class="text-sm">
+              <span>12:24:55 am</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC003 Verify the statusLine</h5>
+<span class='badge badge-success'>04.13.2023 12:24:55 am</span>
+<span class='badge badge-danger'>04.13.2023 12:24:55 am</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LP</span>
+<span class="badge badge-pill badge-default">Functional</span>
+<span class="badge badge-pill badge-default">UploadImage</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:55 am</td>
+        <td>
+          TC003 Verify the statusLine
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:55 am</td>
+        <td>
+          StatusLine matched as per expectedStatusLine is :: HTTP/1.1 200 OK
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="18"
+          author="LP"
+          tag="GET_PET Functional"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC017 Verify the GET Pet API </p>
+            <p class="text-sm">
+              <span>12:24:55 am</span> / <span>00:00:01:460</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC017 Verify the GET Pet API </h5>
+<span class='badge badge-success'>04.13.2023 12:24:55 am</span>
+<span class='badge badge-danger'>04.13.2023 12:24:57 am</span>
+<span class='badge badge-default'>00:00:01:460</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LP</span>
+<span class="badge badge-pill badge-default">GET_PET</span>
+<span class="badge badge-pill badge-default">Functional</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:55 am</td>
+        <td>
+          TC017 Verify the GET Pet API 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:55 am</td>
+        <td>
+          GET_Header Request sent successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:57 am</td>
+        <td>
+          GET Request Initiated successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:57 am</td>
+        <td>
+          Status Code Matched Testcase Passed !ResponseCode is :: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:57 am</td>
+        <td>
+          StatusLine matched as per expectedStatusLine is :: HTTP/1.1 200 OK
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:57 am</td>
+        <td>
+          ResponseTime matched as per expectedResponseTime is :: 1s
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="19"
+          author="LP"
+          tag="Functional DELETE_PET"
+          device="">
+          <div class="test-detail">
+            <p class="name">TC019 Verify the DELETE Pet</p>
+            <p class="text-sm">
+              <span>12:24:57 am</span> / <span>00:00:01:430</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TC019 Verify the DELETE Pet</h5>
+<span class='badge badge-success'>04.13.2023 12:24:57 am</span>
+<span class='badge badge-danger'>04.13.2023 12:24:58 am</span>
+<span class='badge badge-default'>00:00:01:430</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">LP</span>
+<span class="badge badge-pill badge-default">Functional</span>
+<span class="badge badge-pill badge-default">DELETE_PET</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:24:57 am</td>
+        <td>
+          TC019 Verify the DELETE Pet
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:57 am</td>
+        <td>
+          Header Request sent successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:57 am</td>
+        <td>
+          Header Request sent successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:58 am</td>
+        <td>
+          DELETE Request Initiated successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:58 am</td>
+        <td>
+          Status Code Matched Testcase Passed !ResponseCode is :: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:58 am</td>
+        <td>
+          StatusLine matched as per expectedStatusLine is :: HTTP/1.1 200 OK
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:24:58 am</td>
+        <td>
+          ResponseTime matched as per expectedResponseTime is :: 1s
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">6</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">GET_PET</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>GET_PET</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:55 am</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>TC017 Verify the GET Pet API </a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>19</span>
+</span>
+<p class="name">Functional</p>
+<p class="duration text-sm">19 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Functional</h4>
+<span status="pass" class='badge log pass-bg'>19 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:39 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>TC008 Verify the Add New Pet</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:42 am</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>TC010 Verify the ResponseBody Category id </a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:43 am</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>TC011 Verify the ResponseBody Category Name</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:43 am</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>TC009 Verify the ResponseBody id </a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:43 am</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>TC012 Verify the ResponseBody Pet Name</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:43 am</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>TC016 Verify the ResponseBody Status</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:43 am</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>TC015 Verify the ResponseBody tagId</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:43 am</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>TC014 Verify the ResponseBody tagname</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:43 am</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>TC013 Verify the ResponseBody photoUrls</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:43 am</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>TC018 Verify the UPDATE New Pet API </a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:45 am</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>TC007 Verify the ResponseBody sending Request WithoutFormData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:47 am</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>TC001 Verify the Response Message</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:55 am</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>TC002 Verify the Status Code</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:55 am</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>TC004 Verify the ResponseBody code</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:55 am</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>TC006 Verify the ResponseBody Type</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:55 am</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>TC005 Verify the ResponseTime</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:55 am</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>TC003 Verify the statusLine</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:55 am</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>TC017 Verify the GET Pet API </a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:57 am</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>TC019 Verify the DELETE Pet</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">UPDATE_PET</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>UPDATE_PET</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:43 am</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>TC018 Verify the UPDATE New Pet API </a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>9</span>
+</span>
+<p class="name">Add_New_Pet</p>
+<p class="duration text-sm">9 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Add_New_Pet</h4>
+<span status="pass" class='badge log pass-bg'>9 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:39 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>TC008 Verify the Add New Pet</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:42 am</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>TC010 Verify the ResponseBody Category id </a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:43 am</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>TC011 Verify the ResponseBody Category Name</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:43 am</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>TC009 Verify the ResponseBody id </a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:43 am</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>TC012 Verify the ResponseBody Pet Name</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:43 am</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>TC016 Verify the ResponseBody Status</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:43 am</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>TC015 Verify the ResponseBody tagId</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:43 am</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>TC014 Verify the ResponseBody tagname</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:43 am</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>TC013 Verify the ResponseBody photoUrls</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">DELETE_PET</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>DELETE_PET</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:57 am</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>TC019 Verify the DELETE Pet</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>7</span>
+</span>
+<p class="name">UploadImage</p>
+<p class="duration text-sm">7 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>UploadImage</h4>
+<span status="pass" class='badge log pass-bg'>7 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:45 am</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>TC007 Verify the ResponseBody sending Request WithoutFormData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:47 am</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>TC001 Verify the Response Message</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:55 am</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>TC002 Verify the Status Code</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:55 am</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>TC004 Verify the ResponseBody code</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:55 am</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>TC006 Verify the ResponseBody Type</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:55 am</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>TC005 Verify the ResponseTime</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:55 am</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>TC003 Verify the statusLine</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view author-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Author</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>19</span>
+</span>
+<p class="name">LP</p>
+<p class="duration text-sm">19 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>LP</h4>
+<span status="pass" class='badge log pass-bg'>19 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:39 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>TC008 Verify the Add New Pet</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:42 am</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>TC010 Verify the ResponseBody Category id </a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:43 am</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>TC011 Verify the ResponseBody Category Name</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:43 am</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>TC009 Verify the ResponseBody id </a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:43 am</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>TC012 Verify the ResponseBody Pet Name</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:43 am</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>TC016 Verify the ResponseBody Status</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:43 am</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>TC015 Verify the ResponseBody tagId</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:43 am</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>TC014 Verify the ResponseBody tagname</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:43 am</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>TC013 Verify the ResponseBody photoUrls</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:43 am</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>TC018 Verify the UPDATE New Pet API </a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:45 am</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>TC007 Verify the ResponseBody sending Request WithoutFormData</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:47 am</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>TC001 Verify the Response Message</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:55 am</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>TC002 Verify the Status Code</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:55 am</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>TC004 Verify the ResponseBody code</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:55 am</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>TC006 Verify the ResponseBody Type</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:55 am</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>TC005 Verify the ResponseTime</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:55 am</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>TC003 Verify the statusLine</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:55 am</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>TC017 Verify the GET Pet API </a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:24:57 am</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>TC019 Verify the DELETE Pet</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Apr 13, 2023 12:24:38 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Apr 13, 2023 12:24:58 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>19</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>19</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='72%'><b>51</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>19</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"TC008 Verify the Add New Pet":2.767,"TC010 Verify the ResponseBody Category id ":0.904,"TC011 Verify the ResponseBody Category Name":0.068,"TC009 Verify the ResponseBody id ":0.073,"TC012 Verify the ResponseBody Pet Name":0.025,"TC016 Verify the ResponseBody Status":0.024,"TC015 Verify the ResponseBody tagId":0.031,"TC014 Verify the ResponseBody tagname":0.027,"TC013 Verify the ResponseBody photoUrls":0.039,"TC018 Verify the UPDATE New Pet API ":1.343,"TC007 Verify the ResponseBody sending Request WithoutFormData":1.551,"TC001 Verify the Response Message":8.044,"TC002 Verify the Status Code":0,"TC004 Verify the ResponseBody code":0.019,"TC006 Verify the ResponseBody Type":0.012,"TC005 Verify the ResponseTime":0.001,"TC003 Verify the statusLine":0,"TC017 Verify the GET Pet API ":1.46,"TC019 Verify the DELETE Pet":1.43
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 author-container">
+<div class="card">
+<div class="card-header"><p>Author</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead>
+<tbody>
+<tr>
+<td>LP</td>
+<td>19</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>GET_PET</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>Functional</td>
+<td>19</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>UPDATE_PET</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>Add_New_Pet</td>
+<td>9</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>DELETE_PET</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>UploadImage</td>
+<td>7</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 19,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 51,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 19
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

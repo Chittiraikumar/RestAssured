@@ -1,0 +1,19 @@
+{
+  "id": 100112,
+  "category": {
+    "id": 100112,
+    "name": "Dobber_dog"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "https://www.dreamstime.com/photos-images/dog.html",
+    "https://www.dreamstime.com/royalty-free-stock-photo-dog-listening-big-ear-image27392035"
+  ],
+  "tags": [
+    {
+      "id": 100112,
+      "name": "Test"
+    }
+  ],
+  "status": "available"
+}

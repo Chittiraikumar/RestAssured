@@ -1,0 +1,18 @@
+{
+  "id": 100112,
+  "category": {
+    "id": 100112,
+    "name": "CountryDog"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "https://unsplash.com/s/photos/baby-dog"
+  ],
+  "tags": [
+    {
+      "id": 100112,
+      "name": "Test"
+    }
+  ],
+  "status": "available"
+}
